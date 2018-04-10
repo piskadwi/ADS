@@ -105,6 +105,52 @@ dengan internet dan memiliki web browser.
 
 
 
+5. Kebutuhan NonFungsional 
+ID	Parameter	Kebutuhan
+SRS-NF-OUT-23	Availability	Perangkat keras harus dapat beroperasi 7 hari perminggu, 24 jam per hari tanpa gagal
+SRS-NF-PR-24	Reliability	Kegagalan dalam proses transaksi memiliki toleransi satu kali gagal dalam satu minggu
+SRS-NF-OUT-25	Ergonomy	Tampilan interface aplikasi sistem informasi Endorse mudah dipahami user dan estetikanya bagus
+SRS-NF-PR-026	Portability	Perangkat lunak dapat dipakai di platform Windows
+SRS-NF-PR-027	Response time	Software yang mampu mengirimkan notifikasi e-mail kepada user maksimal dalam waktu 30 detik
+SRS-NF-PR-028	Response time	Software yang mampu melakukan update data dalam waktu 5 detik
+SRS-NF-PR-029	Security	Software aplikasi menggunakan standar enkripsi HTTPS
+SRS-NF-IN-030	Security	Software reject masukkan pengguna yang akan mendaftarkan diri dengan password kurang dari 8 karakter
+SRS-NF-OUT-031	Communication Language	Interface tersedia dalam bahasa Indonesia dan bahasa inggris
+SRS-NF-OUT-032	Logo	Logo Endorse
+
+5.1 Kebutuhan kinerja
+Untuk perancangan kebutuhan kinerja yang dipakai dalam pengembangan aplikasi sistem informasi Endorse 
+•	Interface aplikasi dibuat dengan photoshop cc dan corel draw 
+•	Text editor yang digunakan adalah sublime text
+•	Bahasa pemrograman yang digunakan adalah PHP
+5.2 Kebutuhan keamanan
+Untuk perancangan keamanan yang dipakai dalam pengembangan aplikasi sistem informasi Endorse
+•	Menggunakan enkripsi HTTPS
+•	Sign Up harus lebih dari 8 karakter
+5.3 Aturan kebutuhan
+Untuk percandangan kebutuhan yang dipakai aplikasi sistem informasi Endorse dengan menyatakan beberapa kebutuhan fungsional tertentu sebagai aturan yang ada pada ringkasan kebutuhan dibawah.
+
+
+
+
+6. Ringkasan kebutuhan
+Software aplikasi sistem informasi Endorse yang dibuat memiliki dua jenis kebutuhan yakni kebutuhan fungsional dan non fungsional. Kebutuhan ini menggambarkan semua hal yang harus dipenuhi dan nantinya akan menjadi arahan tahapan percobaan, karena pada dasarnya semua kebutuhan harus dapat ditest.
+
+6.1 Kebutuhan Fungsional
+ID	Deskripsi
+SRS-F-OUT-001	Software aplikasi Endorse interface menampilkan form sign in
+SRS-F-OUT-002	Software aplikasi Endorse interface menampilkan form sign up
+SRS-F-IN-003	Software aplikasi Endorse menerima masukan dari user, berupa request 
+SRS-F-PR-004	Software aplikasi Endorse menyimpan data user
+SRS-F-OUT-005	Software aplikasi Endorse menampilkan pesan berupa pilihan vendor yang ingin dipilih
+SRS-F-PR-006	Software aplikasi Endorse menyediakan mode pencarian terhadap vendor, sesuai inputan dari user
+SRS-F-IN-007	Software aplikasi Endorse menerima masukkan username dan password user
+SRS-F-OUT-008	Software aplikasi Endorse menampilkan katalog
+SRS-F-PR-009	Software aplikasi Endorse menerima pilihan dari user
+SRS-F-PR-010	Software aplikasi Endorse menampilkan pilihan vendor, dan influencer
+SRS-F-OUT-011	Software aplikasi Endorse melakukan penjadwalan
+
+
 
 
 
