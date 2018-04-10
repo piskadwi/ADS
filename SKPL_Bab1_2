@@ -66,7 +66,46 @@ untuk memberikan gambaran yang sama terhadap  definisi, istilah dan singkatan ya
 
 1.7 Ikhtisar Dokumen
 Dengan dibuatnya dokumen SKPL ini diharapkan dapat memberikan informasi kepada vendor dan influencer yang akan memanfaatkan sistem informasi ini.
-sehingga diharapkan sistem informasi ini dapat membantu mengatasi masalah yang dialami oleh pada vendor dan influencer. 
+sehingga diharapkan sistem informasi ini dapat membantu mengatasi masalah yang dialami oleh pada vendor dan influencer.
+
+
+2. Deskripsi Umum
+2.1 Tentang Perangkat Lunak
+2.1.1 Fungsional :
+1. Pengguna dapat mencari influencer yang cocok dengan produk yang dimiliki
+2. Pengguna dapat menghubungi influencer melalui fitur messanger yang ada pada sistem
+3. Sistem mengklasifikasi jenis berdasarkan keinginan atau minat dari influencer
+4. Sistem dapat menampilkan jadwal endorse dari influencer dan juga dapat memproses jadwal dari vendor
+5. Sistem dapat merekomendasikan influencer mana yang cocok dengan produk dari vendor
+6. Sistem dapat menampilkan influencer dengan rating tertinggi
+
+2.1.2	Non-Funfsional :
+1. Sistem dapat dijalankan pada perangkat lunak mobile dan desktop
+2. Sistrm dapat menjamin bahwa akun dari influencer merupakan akun yang valid
+
+2.2 Fungsi-Fungsi Perangkat Lunak
+Sistem informasi ini berfungsi untuk memudahkan vendor untuk terhubung dengan influencer tanpa adanya bantuan dari orang ke3. Sistem ini merupakan
+sistem informasi berbasis web sehingga dapat memudahkan pengguna untuk mengakses sistem ini pada gadget apapun. Selain itu web dari sistem informasi
+ini sudah responsif jadi pengguna akna tetap nyaman ketika membuka sistem ini menggunakan smartphone maupun PC.
+
+
+2.3 Karakteristik dan Klasifikasi Pengguna
+Pada sistem informasi ini vendor dapat menglakukan berbagai hal diantaranya dapat memilih influencer-influencer yang cocok dengan produk yang akan 
+dipromosikan. Dapat memesan jadwal promosi pada inlfuencer secara langsung melalui sistem. sedangkan untuk para influencer kemudahan saat menggunakan
+sistem informasi ini antara lain dapat memilih produk mana yang akan diiklankan. tidak ada potongan gaji dari pihak ketiga.
+dari segi keamanan pada sistem informasi ini, akun-akun dari influencer dan vendor dijamin kevalidannya.
+
+
+2.4 Lingkungan Operasi
+Karena sistem informasi endorse ini berbasis web maka sistem ini dapat dibuka disemua gadget seperti PC, laptop, smartphone, tablet dan juga dapat
+dibuka disemua platform. tidak ada spesifikasi tertentu untuk dapat mengakses sistem informasi ini,asalkan perangkat yang digunakan terhubung 
+dengan internet dan memiliki web browser.
+
+2.5 Batasan Desain dan Implementasi
+
+
+
+
 
 
 
