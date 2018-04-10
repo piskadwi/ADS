@@ -1,0 +1,73 @@
+SPESIFIKASI KEBUTUHAN PERANGKAT LUNAK
+SISTEM INFORMASI ENDORSE
+<10/04/2018>DRAF
+
+Disiapkan Oleh:
+<Novan Farhandi H, 15053560>
+<Piska Dwi N, 150535601670>
+<Rifki Arditya P, 15053560>
+
+Sebagai Kelengkapan Tugas Akhir Prodi S1 Teknik Informatika 
+Matakuliah Analisa dan Desain Sistem
+
+
+Abstrak
+Isi daripada dokumen ini adalah tentang project perangkat lunak yaitu Sistem Informasi Endorse yang berfungsi sebagai penghubung antara 
+vendor dengan influencer sehingga tidak memerlukan orang ke 3 untuk melakukan transaski endorse. Pada sistem informasi ini terdapat
+berbagai fitur antara lain booking influencer, informasi jadwal influencer, rekomendasi influencer yang sesuai dengan produk yang ingin 
+diiklankan, informasi influencer dengan rating tertinggi, fitur chating antara influencer dengan vendor. Sistem ini merupakan
+sistem informasi berbasis web responsif sehingga pengguna dapat mengakses dengan menggunakan PC, smartphone, tablet dan perangkat lainnya
+selama masih terhubung dengan internet. sistem informasi ini menjamin kevalidan akun inluencer dan akun vendor. Dengan menggunakan sistem
+informasi ini pengguna akan dimudahkan dengan berbagai kelebihan yang ada pada sistem.
+
+
+1. Pendahuluan
+1.1 Latar Belakang
+Media sosial merupakan suatu alat yang dapat digunakan untuk saling bersosialisasi dengan para pengguna lainnya secara online tanpa
+adanya batasan waktu. Banyaknya pengguna media sosial saat ini dapat dimanfaatkan oleh suatu perusahaan, badan usaha ataupun
+perseorangan untuk mempromosikan produk ataupun jasanya. Dengan cara mempromosikan produk melalui influencer atau orang-orang yang memiliki banyak 
+followers diakun media sosial dan orang-orang yang memiliki pengaruh besar terhadap followersnya misalkan artis, salebgram, youtuber
+dan lain-lain. Rata-Rata orang-rang tersebut disukai oleh para followersnya sehingga apa yang dia lakukan, apa yang dia pakai akan memberikan
+inspirasi dan pengaruh besar terhadap followersnya. Sehingga vendor atau orang yang memiliki produk bisa memanfaatkan influencer untuk
+mempromosikan produk ataupun jasanya. Dan harapannya setelah dilakukan promosi penjualan produk atau jasa tersebut akan meningkat. Namun saat ini
+para vendor masih menggunakan pihak ke3 atau agen untuk melakukan transaski dengan inlfuencer yang sehingga akan menambah biaya promosi. Sehingga
+dibutuhkan suatu sistem informasi yang dapat menghubungkan vendor dengan influencer. Dengan adanya sistem informasi endorse ini diharapkan akan 
+memudahkan vendor untuk mencari influencer yang sesuai dengan produknya.
+
+1.2 Tujuan
+1. Untuk memudahkan vendor dalam melakukan transasi tanpa adanya biaya tambahan untuk pihak ke3
+2. medudahkan vendor dalam mencari influencer yang sesuai dengan produk yang akan dipromosikan
+3. memudahkan vendor untuk memesan jadwal promosi produk karena jadwal influencer sudah tertera pada sistem
+4. meningkatkan penghasilan bagi influencer
+
+1.3 Ruang Lingkup Perangkat Lunak
+Sistem informasi Endorse ini dibuat untuk memudahkan para vendor atau orang yang memiliki produk dapat dengan mudah mencari influencer yang
+sesuai dengan produk yang akan dipromosikan. Sasaran utama dari sistem informasi ini adalah para vendor dan juga influencer yang dapat memberikan
+banyak keuntungan untuk kedua belah pihak. Keuntungan yang didapatkan setelah menggunakan sistem informasi ini antara lain lebih hemat biaya,
+dapat mencari influencer yang sesuai dengan produk dan buget yang dimiliki, mudah untuk memesan dan melihat jadwal.
+
+1.4 Target Audience
+DOkumen ini ditujukan kepada para vendor dan influencer 
+1.4.1 Vendor
+1. harapannya vendor dapat memahami sistem informasi endorse ini 
+1.4.2 Influencer
+1. harapannya para influencer dapat memahami cara kerja dari sistem endorse ini
+
+
+1.5 Definisi, Istilah dan Singkatan
+untuk memberikan gambaran yang sama terhadap  definisi, istilah dan singkatan yang digunakan di dokumen ini, perlu dijelaskan sebagaimana berikut:
+1. Influencer : Seorang pengguna media sosial yang memiliki banyak followers ataupun memiliki pengaruh besar terhadap followersnya.
+2. Vendor : Seseorang yang memiliki produk atau jasa yang akan dipromosikan.
+
+
+1.6 Refrensi
+[1] Holil, Achmad. Template: Spesifikasi Kebutuhan Perangkat Lunak, Jurusan Sistem Informasi ITS, 2006.
+
+
+1.7 Ikhtisar Dokumen
+Dengan dibuatnya dokumen SKPL ini diharapkan dapat memberikan informasi kepada vendor dan influencer yang akan memanfaatkan sistem informasi ini.
+sehingga diharapkan sistem informasi ini dapat membantu mengatasi masalah yang dialami oleh pada vendor dan influencer. 
+
+
+
+
