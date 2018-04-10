@@ -104,6 +104,66 @@ dengan internet dan memiliki web browser.
 2.5 Batasan Desain dan Implementasi
 
 
+3. 3.	Kebutuhan Antarmuka Eksternal
+3.1	Antarmuka Pengguna
+Sistem informasi endorse ini berbasis web yang bisa dibuka disemua gadget. Tampilan dari sistem informasinya antara lain:
+1. Halaman Login, tampilan dari halaman login dapat dilihat pada gambar
+https://github.com/piskadwi/ADS_10_C/blob/master/halaman%20login.PNG
+pengguna sebelum masuk ke sistem ini harus login terlebih dahulu.
+2. Halaman Utama seller, tampilan dari halaman utama seller setelah login dapat dilihat pada gambar
+https://github.com/piskadwi/ADS_10_C/blob/master/halaman%20utama%20seller.PNG
+pada halaman ini pengguna dapat memilih berbagai menu yang dapat dilakukan pada sistem informasi endorse ini.
+3. Halaman upload produk, tampilan dari halaman upload produk dapat dilihat pada gambar
+https://github.com/piskadwi/ADS_10_C/blob/master/halaman%20upload%20produk.PNG
+pada halaman ini seller dapat mengupload produk yang akan dipromosikan dan bisa dipilih oleh influencer
+4. Halaman tampilan influencer, tampilan dari halaman influencer dapat dilihat pada gambar
+https://github.com/piskadwi/ADS_10_C/blob/master/halaman%20tampilan%20influencer.PNG
+pada halaman ini terdapat pilihan influencer-influencer yang dapat dipilih berdasarkan rating.
+5. halaman booking, tampilan tampilan booking influencer dapat dilihat pada gambar
+https://github.com/piskadwi/ADS_10_C/blob/master/halaman%20booking.PNG
+pada halaman ini seller dapat memesan tanggal dari influencer untuk mempromosikan produknya.
+6. Halaman request influencer, tampilan request influencer dapat dilihat pada gambar
+https://github.com/piskadwi/ADS_10_C/blob/master/halaman%20request%20influencer.PNG
+pada halaman ini influencer dapat melihat informasi pemesanan jadwal promosi yang udah dipesan oleh seller
+7. Halaman kalender influencer, tampilan halaman kalender influencer dapat dilihat pada gambar
+https://github.com/piskadwi/ADS_10_C/blob/master/halaman%20kalender%20influencer.PNG
+pada halaman ini influencer dapat melihat jadwal promosi yang harus dilakukan.
+8. Halaman galery influencer, tampilan halaman influencer dapat dilihat pada gambar
+https://github.com/piskadwi/ADS_10_C/blob/master/halaman%20galeri%20influencer.PNG
+pada halman ini influencer dapat membagikan gambar.
+
+
+3.2	Antarmuka Perangkat Keras
+Antarmuka perangkat keras yang digunakan untuk mengoprasikan perangkat lunak antara lain :
+1. Desktop
+2. Smartphone
+
+3.3	Antarmuka Perangkat Lunak
+Antarmuka perangkat lunak yang digunakan untuk mengoprasikan perangkat lunak antara lain :
+1. Web Browser
+2. Android
+3. Windows
+
+3.4	Antarmuka Komunikasi
+Antarmuka komunikasi yang digunakan untuk mengoprasikan perangkat lunak antara lain :
+1. Koneksi internet
+
+
+4.	Feature Sistem
+4.1	Kebutuhan Fungsional
+ID	Kebutuhan	Penjelasan
+KF101	Perangkat lunak dapat menampilkan informasi influencer	Pengguna dapat mencari influencer yang cocok dengan produk yang dimiliki
+KF102	Perangkat lunak dapat mengirimkan pesan	Pengguna dapat menghubungi influencer melalui fitur messenger yang ada pada sistem
+KF103	Perangkat lunak dapat mengklasifikasikan influencer	Sistem dapat memilah jenis influencer berdasarkan keinginan / minat dari personal influencer
+KF104	Perangkat lunak dapat menampilkan dan menyimpan jadwal	Sistem menampilkan jadwal endorse dari influencer dan juga dapat memproses booking jadwal dari vendor
+KF105	Perangkat lunak dapat menampilkan relasi produk berdasarkan influencer	Sistem akan merekomendasikan influencer yang sesuai dengan produk vendor berdasarkan kategori
+KF106	Perangkat lunak menampilkan influencer dengan rating tertinggi	Rating didapatkan berdasarkan jumlah permintaan dan transaksi terbanyak dari influencer
+
+4.2	Used Case
+uses case pada sistem informasi ini dapat dilihat pada gambar berikut
+https://github.com/piskadwi/ADS_10_C/blob/master/use%20case.PNG
+
+
 
 5. Kebutuhan NonFungsional 
 ID	Parameter	Kebutuhan
