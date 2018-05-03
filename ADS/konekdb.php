@@ -1,13 +1,12 @@
 <?php
-$host="localhost";
-$user="root";
+$host ="localhost";
+$user ="root";
 $password="";
-$konek=mysql_connect($host, $user, $password);
-$nama_db="endorse";
-$konek_db=mysql_select_db($nama_db, $konek);
-	if($konek_db){
-	//echo "Terhubung";
+$db="endorse";
+$konek=mysqli_connect($host, $user, $password,$db);
+if ($konek){
+	//echo "BERHASIL!";
 	}else{
-	echo "gagal";
-	}
+		echo "GAGAL!";
+		}
 ?>
