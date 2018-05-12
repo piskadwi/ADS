@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: May 06, 2018 at 07:13 PM
+-- Generation Time: May 12, 2018 at 06:02 AM
 -- Server version: 10.1.16-MariaDB
 -- PHP Version: 7.0.9
 
@@ -125,6 +125,49 @@ CREATE TABLE `vendor` (
 
 INSERT INTO `vendor` (`id_vendor`, `nama_vendor`, `email_vendor`, `nama_usaha`) VALUES
 ('1', 'Ajib', 'ajibAinun@gmail.com', 'AjibAjib');
+
+--
+-- Indexes for dumped tables
+--
+
+--
+-- Indexes for table `influencer`
+--
+ALTER TABLE `influencer`
+  ADD PRIMARY KEY (`id_influencer`);
+
+--
+-- Indexes for table `produk`
+--
+ALTER TABLE `produk`
+  ADD PRIMARY KEY (`id_produk`);
+
+--
+-- Indexes for table `request`
+--
+ALTER TABLE `request`
+  ADD PRIMARY KEY (`id_req`),
+  ADD KEY `id_vendor` (`id_vendor`),
+  ADD KEY `id_influencer` (`id_influencer`),
+  ADD KEY `id_produk` (`id_produk`);
+
+--
+-- Indexes for table `vendor`
+--
+ALTER TABLE `vendor`
+  ADD PRIMARY KEY (`id_vendor`);
+
+--
+-- Constraints for dumped tables
+--
+
+--
+-- Constraints for table `request`
+--
+ALTER TABLE `request`
+  ADD CONSTRAINT `request_ibfk_1` FOREIGN KEY (`id_vendor`) REFERENCES `vendor` (`id_vendor`) ON DELETE CASCADE ON UPDATE CASCADE,
+  ADD CONSTRAINT `request_ibfk_2` FOREIGN KEY (`id_influencer`) REFERENCES `influencer` (`id_influencer`) ON DELETE CASCADE ON UPDATE CASCADE,
+  ADD CONSTRAINT `request_ibfk_3` FOREIGN KEY (`id_produk`) REFERENCES `produk` (`id_produk`) ON DELETE CASCADE ON UPDATE CASCADE;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
